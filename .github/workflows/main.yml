@@ -18,4 +18,4 @@ jobs:
             -e DB_USER=${{ secrets.DB_USER }} \
             -e DB_PASSWORD=${{ secrets.DB_PASSWORD }} \
             -e RAIDRIO_API_KEY=${{ secrets.RAIDRIO_API_KEY }} \
-            ghcr.io/<your-username>/guildranking-backend:dev
+            ghcr.io/bulaigeorge/guildranking-backend:dev
