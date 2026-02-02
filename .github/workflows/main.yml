@@ -18,4 +18,5 @@ jobs:
             -e DB_USER=${{ secrets.DB_USER }} \
             -e DB_PASSWORD=${{ secrets.DB_PASSWORD }} \
             -e RAIDERIO_API_KEY=${{ secrets.RAIDERIO_API_KEY }} \
+            -e WARCRAFTLOGS_ACCESS_TOKEN=${{ secrets.WARCRAFTLOGS_ACCESS_TOKEN }} \
             ghcr.io/bulaigeorge/guildranking-backend:dev
